@@ -1,0 +1,63 @@
+# Cursor Rules for Anubhuta Jogamala Project
+
+## Project Overview
+This is a Python project focused on PDF text extraction and processing, specifically for "Anubhuta Jogamala" documents.
+
+## Code Style & Standards
+
+### Python
+- Use Python 3.8+ features
+- Follow PEP 8 style guidelines
+- Use type hints for function parameters and return values
+- Prefer f-strings over .format() or % formatting
+- Use meaningful variable and function names
+- Maximum line length: 88 characters (Black default)
+
+### File Organization
+- Keep PDF extraction logic modular and reusable
+- Separate concerns: extraction, processing, and output
+- Use descriptive filenames that indicate the PDF part being processed
+
+### Documentation
+- Add docstrings to all functions and classes
+- Include type hints for better code clarity
+- Comment complex PDF processing logic
+- Document any special handling for different PDF formats
+
+### Error Handling
+- Use try-except blocks for PDF operations that might fail
+- Handle common PDF issues: corrupted files, password protection, encoding issues
+- Provide meaningful error messages
+- Log errors for debugging
+
+### Dependencies
+- Prefer well-maintained PDF libraries (PyPDF2, pdfplumber, pymupdf)
+- Pin dependency versions for reproducibility
+- Keep requirements.txt updated
+
+### Performance
+- Process large PDFs in chunks when possible
+- Use generators for memory-efficient text processing
+- Consider caching extracted text for repeated operations
+
+## Git Practices
+- Use descriptive commit messages
+- Commit frequently with logical changes
+- Don't commit PDF files unless necessary (consider .gitignore)
+- Keep extracted text files organized in dedicated directories
+
+## Security
+- Be cautious with PDF files from unknown sources
+- Validate input files before processing
+- Don't hardcode sensitive paths or credentials
+
+## Testing
+- Test with various PDF formats and sizes
+- Include edge cases: empty PDFs, image-only PDFs, corrupted files
+- Verify text extraction accuracy for critical content
+
+## Code Review Guidelines
+- Review extracted text quality and formatting
+- Check for proper handling of special characters and encoding
+- Ensure consistent output format across different PDF parts
+- Verify error handling for edge cases 
