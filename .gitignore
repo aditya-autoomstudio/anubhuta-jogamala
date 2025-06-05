@@ -56,8 +56,7 @@ Thumbs.db
 *.zip
 *.tar.gz
 
-# Extracted text files (keep structure, ignore content)
-part_*_text/*.txt
+# Extracted text files - allow part_*_text directories but ignore other output
 extracted_text/
 output/
 temp/
