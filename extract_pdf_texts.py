@@ -1,35 +1,115 @@
-import os
-from pdf2image import convert_from_path
-import pytesseract
-from PIL import Image
+"""
+Extract text from Anubhuta Jogamala Part 1 PDF files.
 
-src = 'Part_1'
-dst = 'part_1_text'
-os.makedirs(dst, exist_ok=True)
+This script processes PDF files from the Part_1 directory and extracts text
+using the PDFExtractor library with OCR fallback for Odia language support.
+"""
 
-files = [f for f in os.listdir(src) if f.lower().endswith('.pdf')]
-for f in sorted(files):
-    pdf_path = os.path.join(src, f)
-    txt_path = os.path.join(dst, f.rsplit('.', 1)[0] + '.txt')
-    text = ''
+import logging
+from pathlib import Path
+from typing import List, Optional
+
+from pdf_extractor import create_extractor_with_defaults, PDFExtractionError
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
+def extract_part1_texts(
+    source_dir: str = 'Part_1',
+    output_dir: str = 'part_1_text',
+    pdf_pattern: str = '*.pdf'
+) -> dict:
+    """
+    Extract text from all PDF files in the source directory.
+    
+    Args:
+        source_dir: Directory containing PDF files
+        output_dir: Directory to save extracted text files
+        pdf_pattern: Glob pattern for PDF files
+        
+    Returns:
+        Dictionary mapping PDF filenames to output text files
+        
+    Raises:
+        PDFExtractionError: If extraction process fails
+    """
+    source_path = Path(source_dir)
+    output_path = Path(output_dir)
+    
+    # Validate source directory
+    if not source_path.exists():
+        raise PDFExtractionError(f"Source directory not found: {source_path}")
+    
+    # Create output directory
     try:
-        from pdfplumber import open as pdfplumber_open
-        with pdfplumber_open(pdf_path) as pdf:
-            for page in pdf.pages:
-                page_text = page.extract_text()
-                if page_text:
-                    text += page_text + '\n'
-                else:
-                    # Fallback to OCR for this page using Odia
-                    images = convert_from_path(pdf_path, first_page=page.page_number, last_page=page.page_number)
-                    for image in images:
-                        ocr_text = pytesseract.image_to_string(image, lang='ori')
-                        text += ocr_text + '\n'
+        output_path.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Created output directory: {output_path}")
     except Exception as e:
-        # If pdfplumber fails, fallback to OCR for all pages using Odia
-        images = convert_from_path(pdf_path)
-        for image in images:
-            ocr_text = pytesseract.image_to_string(image, lang='ori')
-            text += ocr_text + '\n'
-    with open(txt_path, 'w', encoding='utf-8') as out:
-        out.write(text) 
+        raise PDFExtractionError(f"Cannot create output directory: {e}")
+    
+    # Initialize PDF extractor
+    extractor = create_extractor_with_defaults()
+    
+    # Find PDF files
+    pdf_files = list(source_path.glob(pdf_pattern))
+    if not pdf_files:
+        logger.warning(f"No PDF files found in {source_path}")
+        return {}
+    
+    logger.info(f"Found {len(pdf_files)} PDF files to process")
+    
+    # Process each PDF file
+    results = {}
+    for pdf_file in sorted(pdf_files):
+        try:
+            logger.info(f"Processing: {pdf_file.name}")
+            
+            # Generate output filename
+            output_file = output_path / f"{pdf_file.stem}.txt"
+            
+            # Extract text using the PDFExtractor
+            extracted_text = extractor.extract_text_from_pdf(pdf_file)
+            
+            # Save extracted text
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(extracted_text)
+            
+            results[pdf_file.name] = str(output_file)
+            logger.info(f"Successfully processed: {pdf_file.name}")
+            
+        except Exception as e:
+            logger.error(f"Failed to process {pdf_file.name}: {e}")
+            # Continue processing other files
+            continue
+    
+    logger.info(f"Processing completed. Successfully processed {len(results)} files")
+    return results
+
+
+def main() -> None:
+    """Main function to execute the text extraction process."""
+    try:
+        results = extract_part1_texts()
+        
+        if results:
+            print(f"\n✓ Successfully extracted text from {len(results)} PDF files:")
+            for pdf_name, output_file in results.items():
+                print(f"  • {pdf_name} → {output_file}")
+        else:
+            print("⚠ No PDF files were processed.")
+            
+    except PDFExtractionError as e:
+        logger.error(f"Extraction failed: {e}")
+        print(f"❌ Error: {e}")
+    except Exception as e:
+        logger.error(f"Unexpected error: {e}")
+        print(f"❌ Unexpected error: {e}")
+
+
+if __name__ == "__main__":
+    main() 

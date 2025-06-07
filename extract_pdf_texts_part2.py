@@ -1,65 +1,168 @@
-import os
-from pdf2image import convert_from_path
-import pytesseract
-from PIL import Image, ImageEnhance
+"""
+Extract text from Anubhuta Jogamala Part 2 (Ghara Baida) PDF file.
 
-# Optional: Advanced preprocessing with OpenCV
-# import cv2
-# import numpy as np
+This script processes the Part 2 PDF file page by page and extracts text
+using advanced OCR with image preprocessing for better accuracy.
+"""
 
-def preprocess_image_basic(image):
-    # Convert to grayscale
-    image = image.convert('L')
-    # Increase contrast
-    enhancer = ImageEnhance.Contrast(image)
-    image = enhancer.enhance(2.0)
-    return image
+import logging
+from pathlib import Path
+from typing import Dict, Optional
 
-# Advanced preprocessing with OpenCV (optional)
-# def preprocess_image_advanced(pil_image):
-#     open_cv_image = np.array(pil_image)
-#     if open_cv_image.ndim == 3:
-#         open_cv_image = cv2.cvtColor(open_cv_image, cv2.COLOR_RGB2GRAY)
-#     # Binarization
-#     _, thresh = cv2.threshold(open_cv_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-#     # Denoising
-#     denoised = cv2.fastNlMeansDenoising(thresh, None, 30, 7, 21)
-#     # Convert back to PIL
-#     return Image.fromarray(denoised)
+from pdf_extractor import PDFExtractor, PDFExtractionError
 
-pdf_file = 'Anubhuta Jogamala 2 - Ghara Baida.pdf'
-out_dir = 'part_2_text'
-os.makedirs(out_dir, exist_ok=True)
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-custom_config = r'--oem 3 --psm 3'
-languages = 'ori+eng+hin'
 
-try:
-    from pdfplumber import open as pdfplumber_open
-    with pdfplumber_open(pdf_file) as pdf:
-        for page in pdf.pages:
-            page_num = page.page_number
-            page_text = page.extract_text()
-            if not page_text:
-                images = convert_from_path(pdf_file, first_page=page_num, last_page=page_num)
-                page_text = ''
-                for image in images:
-                    # Basic preprocessing
-                    pre_image = preprocess_image_basic(image)
-                    # For advanced preprocessing, uncomment below:
-                    # pre_image = preprocess_image_advanced(image)
-                    ocr_text = pytesseract.image_to_string(pre_image, lang=languages, config=custom_config)
-                    page_text += ocr_text + '\n'
-            txt_path = os.path.join(out_dir, f'page_{page_num:03d}.txt')
-            with open(txt_path, 'w', encoding='utf-8') as out:
-                out.write(page_text or '')
-except Exception as e:
-    images = convert_from_path(pdf_file)
-    for i, image in enumerate(images, 1):
-        pre_image = preprocess_image_basic(image)
-        # For advanced preprocessing, uncomment below:
-        # pre_image = preprocess_image_advanced(image)
-        ocr_text = pytesseract.image_to_string(pre_image, lang=languages, config=custom_config)
-        txt_path = os.path.join(out_dir, f'page_{i:03d}.txt')
-        with open(txt_path, 'w', encoding='utf-8') as out:
-            out.write(ocr_text) 
+def extract_part2_pages(
+    pdf_file: str = 'Anubhuta Jogamala 2 - Ghara Baida.pdf',
+    output_dir: str = 'part_2_text',
+    page_range: Optional[tuple] = None
+) -> Dict[int, str]:
+    """
+    Extract text from Part 2 PDF file page by page.
+    
+    Args:
+        pdf_file: Path to the PDF file to process
+        output_dir: Directory to save individual page text files
+        page_range: Optional tuple (start_page, end_page) for range extraction
+        
+    Returns:
+        Dictionary mapping page numbers to output file paths
+        
+    Raises:
+        PDFExtractionError: If extraction process fails
+    """
+    pdf_path = Path(pdf_file)
+    output_path = Path(output_dir)
+    
+    # Validate input file
+    if not pdf_path.exists():
+        raise PDFExtractionError(f"PDF file not found: {pdf_path}")
+    
+    # Create output directory
+    try:
+        output_path.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Created output directory: {output_path}")
+    except Exception as e:
+        raise PDFExtractionError(f"Cannot create output directory: {e}")
+    
+    # Initialize PDF extractor with advanced OCR settings
+    extractor = PDFExtractor(
+        languages='ori+eng+hin',
+        tesseract_config='--oem 3 --psm 3',
+        enable_preprocessing=True
+    )
+    
+    logger.info(f"Starting page-by-page extraction from: {pdf_path.name}")
+    
+    try:
+        # Extract pages to individual files
+        results = extractor.extract_pages_to_files(
+            pdf_path=pdf_path,
+            output_dir=output_path,
+            page_range=page_range,
+            file_prefix="page"
+        )
+        
+        logger.info(f"Successfully extracted {len(results)} pages")
+        return results
+        
+    except Exception as e:
+        raise PDFExtractionError(f"Failed to extract pages: {e}")
+
+
+def extract_complete_text(
+    pdf_file: str = 'Anubhuta Jogamala 2 - Ghara Baida.pdf',
+    output_file: str = 'Anubhuta Jogamala 2 - Ghara Baida.txt'
+) -> str:
+    """
+    Extract complete text from Part 2 PDF file into a single file.
+    
+    Args:
+        pdf_file: Path to the PDF file to process
+        output_file: Path for the complete text output file
+        
+    Returns:
+        Path to the output file
+        
+    Raises:
+        PDFExtractionError: If extraction process fails
+    """
+    pdf_path = Path(pdf_file)
+    output_path = Path(output_file)
+    
+    # Validate input file
+    if not pdf_path.exists():
+        raise PDFExtractionError(f"PDF file not found: {pdf_path}")
+    
+    # Initialize PDF extractor
+    extractor = PDFExtractor(
+        languages='ori+eng+hin',
+        tesseract_config='--oem 3 --psm 3',
+        enable_preprocessing=True
+    )
+    
+    logger.info(f"Extracting complete text from: {pdf_path.name}")
+    
+    try:
+        # Extract complete text
+        extracted_text = extractor.extract_text_from_pdf(pdf_path)
+        
+        # Save to file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(extracted_text)
+        
+        logger.info(f"Complete text saved to: {output_path}")
+        return str(output_path)
+        
+    except Exception as e:
+        raise PDFExtractionError(f"Failed to extract complete text: {e}")
+
+
+def main() -> None:
+    """Main function to execute the text extraction process."""
+    pdf_file = 'Anubhuta Jogamala 2 - Ghara Baida.pdf'
+    
+    try:
+        # Check if PDF exists
+        if not Path(pdf_file).exists():
+            print(f"❌ PDF file not found: {pdf_file}")
+            return
+        
+        print(f"🔄 Processing: {pdf_file}")
+        
+        # Extract page by page
+        print("\n1. Extracting pages individually...")
+        page_results = extract_part2_pages(pdf_file)
+        
+        if page_results:
+            print(f"✓ Successfully extracted {len(page_results)} pages:")
+            sample_pages = list(page_results.items())[:5]  # Show first 5 pages
+            for page_num, file_path in sample_pages:
+                print(f"  • Page {page_num} → {Path(file_path).name}")
+            if len(page_results) > 5:
+                print(f"  • ... and {len(page_results) - 5} more pages")
+        
+        # Extract complete text
+        print("\n2. Extracting complete text...")
+        complete_file = extract_complete_text(pdf_file)
+        print(f"✓ Complete text saved to: {complete_file}")
+        
+        print(f"\n🎉 Processing completed successfully!")
+        
+    except PDFExtractionError as e:
+        logger.error(f"Extraction failed: {e}")
+        print(f"❌ Error: {e}")
+    except Exception as e:
+        logger.error(f"Unexpected error: {e}")
+        print(f"❌ Unexpected error: {e}")
+
+
+if __name__ == "__main__":
+    main() 

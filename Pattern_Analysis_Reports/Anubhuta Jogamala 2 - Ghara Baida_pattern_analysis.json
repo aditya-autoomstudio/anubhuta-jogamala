@@ -1,0 +1,2138 @@
+{
+  "document": "Word_Documents\\Anubhuta Jogamala 2 - Ghara Baida.docx",
+  "total_paragraphs": 1056,
+  "total_characters": 512824,
+  "error_categories": {
+    "broken_words": {
+      "count": 62445,
+      "examples": [
+        {
+          "match": "୨ ଲ",
+          "start": 115,
+          "end": 118,
+          "context": "                4 ୨୬୩୭ 5h A   [୨ ଲ]େ a\n:                         "
+        },
+        {
+          "match": "ୟ ଭ",
+          "start": 388,
+          "end": 391,
+          "context": "          {\n.<_         ଦ୍ବିତୀ[ୟ ଭ]ାଗ “୭\nfe ହି ୦ ˆ = ae\n\na     ; "
+        },
+        {
+          "match": "ି ୦",
+          "start": 401,
+          "end": 404,
+          "context": "<_         ଦ୍ବିତୀୟ ଭାଗ “୭\nfe ହ[ି ୦] ˆ = ae\n\na     ;              "
+        },
+        {
+          "match": "୬ ୭",
+          "start": 557,
+          "end": 560,
+          "context": "                              [୬ ୭]\n\n.  aa  :   =        34 SS   "
+        },
+        {
+          "match": "୪\nଶ",
+          "start": 723,
+          "end": 726,
+          "context": "              1 .         ନ୍‌ [୪\nଶ]ଶ ~*~ ଏ ଓ a               owe "
+        },
+        {
+          "match": "ଏ ଓ",
+          "start": 732,
+          "end": 735,
+          "context": "     1 .         ନ୍‌ ୪\nଶଶ ~*~ [ଏ ଓ] a               owe < ¥ ¬    "
+        },
+        {
+          "match": "୬ ୫",
+          "start": 772,
+          "end": 775,
+          "context": "          owe < ¥ ¬           [୬ ୫] “\n       ଲର      ସାଜି `) Bee "
+        },
+        {
+          "match": "ର      ସ",
+          "start": 786,
+          "end": 794,
+          "context": "< ¥ ¬           ୬ ୫ “\n       ଲ[ର      ସ]ାଜି `) Bee ¥\nଏକ ୭  Nao  SS ee "
+        },
+        {
+          "match": "କ ୭",
+          "start": 808,
+          "end": 811,
+          "context": "       ଲର      ସାଜି `) Bee ¥\nଏ[କ ୭]  Nao  SS ee    ୪୬ eS “= @\n୫୪୦"
+        },
+        {
+          "match": "୮ ୧",
+          "start": 841,
+          "end": 844,
+          "context": "  Nao  SS ee    ୪୬ eS “= @\n୫୪୦[୮ ୧]) cae ୧ ୭,      ୫ ତ    ¦      "
+        },
+        {
+          "match": "୧ ୭",
+          "start": 850,
+          "end": 853,
+          "context": " ee    ୪୬ eS “= @\n୫୪୦୮ ୧) cae [୧ ୭],      ୫ ତ    ¦              €"
+        },
+        {
+          "match": "୫ ତ",
+          "start": 860,
+          "end": 863,
+          "context": "eS “= @\n୫୪୦୮ ୧) cae ୧ ୭,      [୫ ତ]    ¦              €    '    )"
+        },
+        {
+          "match": "େ ୩",
+          "start": 943,
+          "end": 946,
+          "context": "&   $           ଶ୍‌ ୪    ।   ଛ[େ ୩]୩୭ %\n=         A>             "
+        },
+        {
+          "match": "ଲ ଜ",
+          "start": 1039,
+          "end": 1042,
+          "context": "     ୮ “-                    ୍[ଲ ଜ]ୈ ଠଟ୫\nre    -        _        "
+        },
+        {
+          "match": "ୈ ଠ",
+          "start": 1042,
+          "end": 1045,
+          "context": "  ୮ “-                    ୍ଲ ଜ[ୈ ଠ]ଟ୫\nre    -        _           "
+        },
+        {
+          "match": "ତ ଯ",
+          "start": 1219,
+          "end": 1222,
+          "context": "age 2\nOCR Extracted Text\nଅନୁଭୂ[ତ ଯ]ୋଗମାଳା\n|                      "
+        },
+        {
+          "match": "ୟ ଭ",
+          "start": 1259,
+          "end": 1262,
+          "context": "|                       ଦ୍ବିତୀ[ୟ ଭ]ାଗ\nବା\nଲେଖକ `: ଶ୍ରୀ ଲକ୍ଷ୍ମଣ ମିଶ"
+        },
+        {
+          "match": "ଗ\nବ",
+          "start": 1263,
+          "end": 1266,
+          "context": "                    ଦ୍ବିତୀୟ ଭା[ଗ\nବ]ା\nଲେଖକ `: ଶ୍ରୀ ଲକ୍ଷ୍ମଣ ମିଶ୍ର, "
+        },
+        {
+          "match": "ା\nଲ",
+          "start": 1266,
+          "end": 1269,
+          "context": "                 ଦ୍ବିତୀୟ ଭାଗ\nବ[ା\nଲ]େଖକ `: ଶ୍ରୀ ଲକ୍ଷ୍ମଣ ମିଶ୍ର, ବି."
+        },
+        {
+          "match": "ୀ ଲ",
+          "start": 1279,
+          "end": 1282,
+          "context": "    ଦ୍ବିତୀୟ ଭାଗ\nବା\nଲେଖକ `: ଶ୍ର[ୀ ଲ]କ୍ଷ୍ମଣ ମିଶ୍ର, ବି.ଏ.\n(ଅବସରପ୍ରାପ"
+        }
+      ]
+    },
+    "incorrect_halanta": {
+      "count": 19206,
+      "examples": [
+        {
+          "match": "ସ୍ ",
+          "start": 32626,
+          "end": 32629,
+          "context": "   ୧୭୨-୧୭୪\nବାତ ( ବାୟୁ ) -[ଶରୀର[ସ୍ ]ବାତ, Gq \"Vata\" (the wind insid"
+        },
+        {
+          "match": "ଥ୍ ",
+          "start": 90742,
+          "end": 90745,
+          "context": "ନ୍ଦ ଜନକ ଏବଂ ବାତବର୍ଵିକ | ପଥ୍ୟାପ[ଥ୍ ]- ବର୍ଷା\nରତୁରେ ବାୟୁ ବଢ଼େ । ତେଣୁ"
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 132169,
+          "end": 132172,
+          "context": "ନିମାନ୍ଦ୍ୟ ରୋଗରେ ଯାହାର ଦୁଧ ଜୀର୍[ଣ୍ ]ହୁଏ ନାହିଁ\nଏବଂ ବିଶେଷ ଦୁର୍ବଳ ଲୋକ"
+        },
+        {
+          "match": "ଦ୍ ",
+          "start": 167762,
+          "end": 167765,
+          "context": "ଷା ଏବଂ ଅରୁଚିନାଶକ | QA, ଅଗିମାନ୍[ଦ୍ ]ଏବଂ ଶୂଳ\nରୋଗରେ ଏହାର ରସ ଉପକୀର କର"
+        },
+        {
+          "match": "ଧ୍\n",
+          "start": 185544,
+          "end": 185547,
+          "context": "ତୀସ 699 ଏହା ଆସ୍‌ପ୍ରିନର ପ୍ରତିନି[ଧ୍\n]କିନ୍ତୁ ଆସ୍‌ପ୍ରିନ୍‌ର ବିଷକ୍ରିୟା "
+        },
+        {
+          "match": "କ୍ ",
+          "start": 201669,
+          "end": 201672,
+          "context": "ଂସକତା ଏବଂ ଲିଙ୍ଗର SHAME! - ଉପରୋ[କ୍ ]ଅଶ୍ଵଗନ୍ଧା ଚୂର୍ଣ ଖାଇବ ଅଥବା ଏହି\n"
+        },
+        {
+          "match": "ଧ୍ ",
+          "start": 215384,
+          "end": 215387,
+          "context": "gar\nଶଟୀ ମୁସ୍ତଞ୍ଚ ଚାମ୍ପେୟଂ ସବୌଷ[ଧ୍ ]ସୁଦୁର୍ଲଭମ୍‌ |                 "
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 232166,
+          "end": 232169,
+          "context": "        AIFS AIGA - ଫେଣ ଧଳାବର୍[ଣ୍ ]ରୋଗୀର ଶରୀର ଶୀତଳ, ରୋମ ଟାଙ୍କୁରି\n"
+        },
+        {
+          "match": "ନ୍ ",
+          "start": 237466,
+          "end": 237469,
+          "context": "ଞ୍ଜକ, ସାଧକ, ପାଚକ, ଶେଷୁକ-ଏତଦ୍ଭି[ନ୍ ]ଚର୍ମ, ମାଂସ, AB, ମେଦ ଏବଂ\n\nଗୁହ୍ୟ"
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 248389,
+          "end": 248392,
+          "context": "ରୁ ହାତରେ ତୋଳି ଛାଇରେ ଶୁଖାଇ ବୂର୍[ଣ୍ ]କରି (ଲୁହା ଲାଗିବ ନାହିଁ) ଏହି\ngq "
+        },
+        {
+          "match": "କ୍ ",
+          "start": 251751,
+          "end": 251754,
+          "context": "ମହୁ ସହିତ ଖାଇବ |\nଗୁଣ - ଉପଦଂଶ, ର[କ୍ ]JH ଓ ପୁରୁଣା କାଶରେ ଉପଯୋଗୀ |\n___"
+        },
+        {
+          "match": "ଧ୍ ",
+          "start": 309081,
+          "end": 309084,
+          "context": "ୟ ସେବନ ଦ୍ଵାରା ମନୁଷ୍ଯକୁ ଜରାବ୍ୟା[ଧ୍ ]ଆକ୍ରମଣ କରେ ନାହିଁ, ଚକ୍ଷୁର\n'ଜ୍ୟୋ"
+        },
+        {
+          "match": "ଣ୍\n",
+          "start": 313375,
+          "end": 313378,
+          "context": "OI ସୁକି ଓଜନ, ଗୁଜୁରାତି ମଞ୍ଜବୁର୍[ଣ୍\n]\n              ବାରଅଣା ଓଜନ, ଗୋଲ"
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 320778,
+          "end": 320781,
+          "context": ", ମୁଥା, କକଡ଼ାଶୃଙ୍କୀ ସମଭାଗ ବୂର୍[ଣ୍ ]କରି ade |\n\nଏହି ଦୂର୍ଣ୍ଣରୁ ଏକଅଣା"
+        },
+        {
+          "match": "କ୍ ",
+          "start": 322980,
+          "end": 322983,
+          "context": "IAN କରି ଲଗାଇଲେ ୩/୪ ଦିନରେ ରୋଗମୁ[କ୍ ]ହେବ |                         "
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 337941,
+          "end": 337944,
+          "context": "ୋଟି ଚୂର୍ଣ୍ଣ କରି ଅଥବା ମଞ୍ଚ ଚୂର୍[ଣ୍ ]        |\nALAS ଦୂଇତୋଳା ମହୁ ସଙ୍"
+        },
+        {
+          "match": "ମ୍ ",
+          "start": 363545,
+          "end": 363548,
+          "context": "କ ACH ଯଥା\nମୂତସଞ୍ଜିବନୀ, ମାଂସ, ଅ[ମ୍ ]ଦ୍ରବ୍ୟ, ରସୁଣସେବୀ ପକ୍ଷରେ ହିତକର "
+        },
+        {
+          "match": "ଧ୍ ",
+          "start": 419956,
+          "end": 419959,
+          "context": "ତ ପ୍ରକାର ଯକ୍ଷ୍ମାରୋଗରେ ଏହି ମହୌଷ[ଧ୍ ]ପ୍ରୟୋଗ କରିବ |\nକ୍ଷୟକେଶରୀ :\n\n.  "
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 496211,
+          "end": 496214,
+          "context": "ସରେ ପ୍ରତିଦିନ ବୃଦ୍ଧତାଳମୂଳୀ ବୂର୍[ଣ୍ ]          ୨ ୬୨୦ ୬୭\nଭାଦ୍ରବ ମାସର"
+        },
+        {
+          "match": "ଣ୍ ",
+          "start": 496596,
+          "end": 496599,
+          "context": "ସରେ ପ୍ରତିଦିନ ମୟୁରବୁଳିଆ ମୂଳଚୂର୍[ଣ୍ ]        ୨୦ ୬୨୦ ୨\nମାର୍ଗଶିର ମାସର"
+        }
+      ]
+    },
+    "english_intrusions": {
+      "count": 8265,
+      "examples": [
+        {
+          "match": "Page",
+          "start": 0,
+          "end": 4,
+          "context": "[Page] 1\nOCR Extracted Text\n:       "
+        },
+        {
+          "match": "OCR",
+          "start": 7,
+          "end": 10,
+          "context": "Page 1\n[OCR] Extracted Text\n:           . "
+        },
+        {
+          "match": "Extracted",
+          "start": 11,
+          "end": 20,
+          "context": "Page 1\nOCR [Extracted] Text\n:           .           "
+        },
+        {
+          "match": "Text",
+          "start": 21,
+          "end": 25,
+          "context": "Page 1\nOCR Extracted [Text]\n:           .             =  "
+        },
+        {
+          "match": "ps",
+          "start": 65,
+          "end": 67,
+          "context": "   .             =    | 4     [ps] ସବି\n`                        "
+        },
+        {
+          "match": "as",
+          "start": 202,
+          "end": 204,
+          "context": "    %                = £2     [as]         :     ¦\nପି     a     "
+        },
+        {
+          "match": "fe",
+          "start": 397,
+          "end": 399,
+          "context": " {\n.<_         ଦ୍ବିତୀୟ ଭାଗ “୭\n[fe] ହି ୦ ˆ = ae\n\na     ;         "
+        },
+        {
+          "match": "ae",
+          "start": 409,
+          "end": 411,
+          "context": "   ଦ୍ବିତୀୟ ଭାଗ “୭\nfe ହି ୦ ˆ = [ae]\n\na     ;                     "
+        },
+        {
+          "match": "fee",
+          "start": 442,
+          "end": 445,
+          "context": "\na     ;                      [fee] ଖା ।\n\n=a                     "
+        },
+        {
+          "match": "se",
+          "start": 489,
+          "end": 491,
+          "context": "                       °      [se] as\n\nL               3s `:    "
+        },
+        {
+          "match": "as",
+          "start": 492,
+          "end": 494,
+          "context": "                    °      se [as]\n\nL               3s `:       "
+        },
+        {
+          "match": "aa",
+          "start": 565,
+          "end": 567,
+          "context": "                      ୬ ୭\n\n.  [aa]  :   =        34 SS          "
+        },
+        {
+          "match": "SS",
+          "start": 585,
+          "end": 587,
+          "context": "  ୬ ୭\n\n.  aa  :   =        34 [SS]                              "
+        },
+        {
+          "match": "ae",
+          "start": 635,
+          "end": 637,
+          "context": "                    ¬ ସା    =\n[ae]                      Bak     "
+        },
+        {
+          "match": "Bak",
+          "start": 659,
+          "end": 662,
+          "context": "    =\nae                      [Bak]            '       . ।\n:     "
+        },
+        {
+          "match": "owe",
+          "start": 752,
+          "end": 755,
+          "context": " ୪\nଶଶ ~*~ ଏ ଓ a               [owe] < ¥ ¬           ୬ ୫ “\n       "
+        },
+        {
+          "match": "Bee",
+          "start": 801,
+          "end": 804,
+          "context": " ୬ ୫ “\n       ଲର      ସାଜି `) [Bee] ¥\nଏକ ୭  Nao  SS ee    ୪୬ eS “"
+        },
+        {
+          "match": "Nao",
+          "start": 813,
+          "end": 816,
+          "context": "  ଲର      ସାଜି `) Bee ¥\nଏକ ୭  [Nao]  SS ee    ୪୬ eS “= @\n୫୪୦୮ ୧) "
+        },
+        {
+          "match": "SS",
+          "start": 818,
+          "end": 820,
+          "context": "     ସାଜି `) Bee ¥\nଏକ ୭  Nao  [SS] ee    ୪୬ eS “= @\n୫୪୦୮ ୧) cae "
+        },
+        {
+          "match": "ee",
+          "start": 821,
+          "end": 823,
+          "context": "  ସାଜି `) Bee ¥\nଏକ ୭  Nao  SS [ee]    ୪୬ eS “= @\n୫୪୦୮ ୧) cae ୧ ୭"
+        }
+      ]
+    },
+    "number_artifacts": {
+      "count": 505,
+      "examples": [
+        {
+          "match": "1",
+          "start": 5,
+          "end": 6,
+          "context": "Page [1]\nOCR Extracted Text\n:         "
+        },
+        {
+          "match": "4",
+          "start": 59,
+          "end": 60,
+          "context": "         .             =    | [4]     ps ସବି\n`                 "
+        },
+        {
+          "match": "4",
+          "start": 101,
+          "end": 102,
+          "context": "\n`                            [4] ୨୬୩୭ 5h A   ୨ ଲେ a\n:         "
+        },
+        {
+          "match": "2",
+          "start": 196,
+          "end": 197,
+          "context": "          %                = £[2]     as         :     ¦\nପି    "
+        },
+        {
+          "match": "8",
+          "start": 286,
+          "end": 287,
+          "context": "  :      ଥି   =            ¦\n [8]                   ~          "
+        },
+        {
+          "match": "34",
+          "start": 582,
+          "end": 584,
+          "context": "     ୬ ୭\n\n.  aa  :   =        [34] SS                           "
+        },
+        {
+          "match": "1",
+          "start": 707,
+          "end": 708,
+          "context": "     . ।\n:                    [1] .         ନ୍‌ ୪\nଶଶ ~*~ ଏ ଓ a "
+        },
+        {
+          "match": "7",
+          "start": 999,
+          "end": 1000,
+          "context": "            `        (eee ¡ ୧ [7] oe\n— «|      ୮ “-            "
+        },
+        {
+          "match": "2",
+          "start": 1193,
+          "end": 1194,
+          "context": "________________________\nPage [2]\nOCR Extracted Text\nଅନୁଭୂତ ଯୋଗ"
+        },
+        {
+          "match": "3",
+          "start": 1481,
+          "end": 1482,
+          "context": "________________________\nPage [3]\nOCR Extracted Text\n(ii)      "
+        },
+        {
+          "match": "7",
+          "start": 1828,
+          "end": 1829,
+          "context": "ରାପ୍)                         [7]\nପ୍ଲଟ ନଂ - ଏନ୍‌ - ୨/ ୨୩, ନୟାପଲ"
+        },
+        {
+          "match": "9009",
+          "start": 2208,
+          "end": 2212,
+          "context": "     .\nତୃତୀୟ ମୁଦ୍ରଣ : ଅକ୍ଟୋବର [9009]                              "
+        },
+        {
+          "match": "4",
+          "start": 3047,
+          "end": 3048,
+          "context": "________________________\nPage [4]\nOCR Extracted Text\n।         "
+        },
+        {
+          "match": "5",
+          "start": 3448,
+          "end": 3449,
+          "context": "________________________\nPage [5]\nOCR Extracted Text\n(iv)      "
+        },
+        {
+          "match": "6",
+          "start": 5796,
+          "end": 5797,
+          "context": "________________________\nPage [6]\nOCR Extracted Text\nLRAP 6ଘୋନନ"
+        },
+        {
+          "match": "9",
+          "start": 6071,
+          "end": 6072,
+          "context": "d health by conforming      e-[9]\n              °              "
+        },
+        {
+          "match": "8",
+          "start": 6274,
+          "end": 6275,
+          "context": "ତ୍ରି ratural process of daily\n[8]    .    activities (from waki"
+        },
+        {
+          "match": "1",
+          "start": 7128,
+          "end": 7129,
+          "context": "           ensure good health\n[1]       ଖାଦ୍ୟଦ୍ବାରା ସ୍ବାସ୍ଥ୍ୟରକ"
+        },
+        {
+          "match": "7",
+          "start": 8311,
+          "end": 8312,
+          "context": "________________________\nPage [7]\nOCR Extracted Text\n(vi)      "
+        },
+        {
+          "match": "8",
+          "start": 10390,
+          "end": 10391,
+          "context": "________________________\nPage [8]\nOCR Extracted Text\ni         "
+        }
+      ]
+    },
+    "symbol_artifacts": {
+      "count": 304,
+      "examples": [
+        {
+          "match": "£",
+          "start": 195,
+          "end": 196,
+          "context": "           %                = [£]2     as         :     ¦\nପି   "
+        },
+        {
+          "match": "¥",
+          "start": 758,
+          "end": 759,
+          "context": "~*~ ଏ ଓ a               owe < [¥] ¬           ୬ ୫ “\n       ଲର  "
+        },
+        {
+          "match": "¥",
+          "start": 805,
+          "end": 806,
+          "context": " “\n       ଲର      ସାଜି `) Bee [¥]\nଏକ ୭  Nao  SS ee    ୪୬ eS “= "
+        },
+        {
+          "match": "€",
+          "start": 882,
+          "end": 883,
+          "context": "୭,      ୫ ତ    ¦              [€]    '    )\n\n, * ....ମଜା  ]  I "
+        },
+        {
+          "match": "‹",
+          "start": 3769,
+          "end": 3770,
+          "context": "ହାରେ ସ୍ଵର୍ଗତ ମିଶ୍ରଙ୍କର ଲିଖ୍ବତ [‹] ଅନୁଭୁତ ଯୋଗମାଳା ବା ସହଜ        "
+        },
+        {
+          "match": "†",
+          "start": 6762,
+          "end": 6763,
+          "context": "   GACAPER ଖାଦ୍ୟଦ୍ରବ୍ଯର ନିଷେଧ [†]୦ avoid certain foods   ୧୫-୧୬\n"
+        },
+        {
+          "match": "×",
+          "start": 17706,
+          "end": 17707,
+          "context": "_\nPage 11\nOCR Extracted Text\n([×])                    ଥଳୁନୁନ CH"
+        },
+        {
+          "match": "‹",
+          "start": 18863,
+          "end": 18864,
+          "context": "escribed for                ¦\n[‹]କଣ୍ଢଠମାଳା” is applicable.     "
+        },
+        {
+          "match": "€",
+          "start": 22374,
+          "end": 22375,
+          "context": "ୁଏ ନାହ କ ଗୋଡ଼ ହାତ ମେଲୀଇ LI 00୮[€]) becomes stiff as a rod      "
+        },
+        {
+          "match": "×",
+          "start": 24786,
+          "end": 24787,
+          "context": "( ସ୍ବାଭାବିକ ଯୌନ ପ୍ରକ୍ରିୟାରେ ୦୦[×]ଧଞ Impotence - | ୧୩୧-୧୩୫\n:    "
+        },
+        {
+          "match": "±",
+          "start": 25247,
+          "end": 25248,
+          "context": "bscess ମି  ୧୭୩-୧୭୪\n୦୦୮ ୟର     [±]      narrow passage in the\nମଧ"
+        },
+        {
+          "match": "¢",
+          "start": 49355,
+          "end": 49356,
+          "context": "medy to keep the house      90[¢]\n¦        ସଂକ୍ରାମକ ରୋଗ ନରୋଧ   "
+        },
+        {
+          "match": "‹",
+          "start": 55204,
+          "end": 55205,
+          "context": "ରେଣ ରୋଗାଣା\nମୁଦ୍‌ଭବୌ ଭବେତ୍‌ |’\n[‹] ବିନାପି ଭେଷେଜୈ ବ୍ଯାଧଃ ପଥ୍ୟାଦେବ"
+        },
+        {
+          "match": "¥",
+          "start": 83286,
+          "end": 83287,
+          "context": "         ମିଳିବ |\n|           9[¥]. ସୂର୍ଯ୍ୟପରାଗ ଏବଂ ଚନ୍ଦ୍ର ଗ୍ରହଣ"
+        },
+        {
+          "match": "¢",
+          "start": 85181,
+          "end": 85182,
+          "context": "ୁଷ୍ଠ ରୋଗର କୀଟାଣୁ ଅଛି କି ନାହିଁ [¢]\nରତୁ ଚର୍ଯ୍ୟା                  "
+        },
+        {
+          "match": "‹",
+          "start": 99051,
+          "end": 99052,
+          "context": " ମିଲପେଷା ଅଟା ମଇଦାରେ ଭିଟାମିନ୍‌ [‹] ବି” ନଥାଏ |\nଏହି ଚାଉଳ ଏବଂ ଅଟା ଖ"
+        },
+        {
+          "match": "‹",
+          "start": 99189,
+          "end": 99190,
+          "context": "େ ଅନ୍ୟ ଖାଦ୍ୟ ଯେଉଁଥୁରେ ଭିଟାମିନ [‹] ବି” ଅଛି ଖାଆନ୍ତି । କିନ୍ତୁ\nଯେଉଁ"
+        },
+        {
+          "match": "¥",
+          "start": 156813,
+          "end": 156814,
+          "context": "୍ଵରେ ଅଳ ଗାଭଦୁଧ ମିଶାଇ ମୃତଗର୍ଭା\n[¥]           ସ୍ତ୍ରୀକୁ ପିଆଇ ଦେଲେ "
+        },
+        {
+          "match": "›",
+          "start": 165629,
+          "end": 165630,
+          "context": "ୁଭୁତ ଯୋଗମାଳା ବା ସହଜ ଚିକିସ୍ସା' [›] ବହିରେ ଲେଖାଅଛି |              "
+        },
+        {
+          "match": "‹",
+          "start": 168142,
+          "end": 168143,
+          "context": "ଯ ଖରାପ ହୁଏ। ଏହାର ବିଶେଷ ବିବରଣୀ [‹] ' ଅନୁଭୂତ ଯୋଗମାଳା ବା ସହଳ ଚିକିସ"
+        }
+      ]
+    },
+    "punctuation_errors": {
+      "count": 2540,
+      "examples": [
+        {
+          "match": "।।",
+          "start": 432635,
+          "end": 432637,
+          "context": "ଛୋଟପିଲାର\nଲିଙ୍ଗ ପରି ଛୋଟ ହୋଇଯାଏ [।।] ଲିଙ୍ଗର ପୁର୍ବାବସ୍ଥା ଫେରାଇ ଆଣିବ"
+        },
+        {
+          "match": ",,",
+          "start": 176354,
+          "end": 176356,
+          "context": ", ମଧୁର, ରୁଚିକାରକ, ଭାରୀ, କଫକାରୀ[,,] ବୀର୍ଯ୍ୟବର୍ଵକ,\nକାମୋରଦ୍ଦୀପକ, ଅନ"
+        },
+        {
+          "match": ",,",
+          "start": 241339,
+          "end": 241341,
+          "context": "ବନ୍ଦ ନହେଲେ ପିତା କୋରୁଆଁ ( କୋରୁଆ[,,] କୁଡ଼ୁଚି) ଛାଲି\n\nଧ             "
+        },
+        {
+          "match": "\n:",
+          "start": 25,
+          "end": 27,
+          "context": "Page 1\nOCR Extracted Text[\n:]           .             =    "
+        },
+        {
+          "match": "\n:",
+          "start": 121,
+          "end": 123,
+          "context": "          4 ୨୬୩୭ 5h A   ୨ ଲେ a[\n:]                             `"
+        },
+        {
+          "match": "         :",
+          "start": 204,
+          "end": 214,
+          "context": "  %                = £2     as[         :]     ¦\nପି     a               "
+        },
+        {
+          "match": "                             :",
+          "start": 229,
+          "end": 259,
+          "context": "   as         :     ¦\nପି     a[                             :]      ଥି   =            ¦\n 8  "
+        },
+        {
+          "match": "     ;",
+          "start": 414,
+          "end": 420,
+          "context": "ବିତୀୟ ଭାଗ “୭\nfe ହି ୦ ˆ = ae\n\na[     ;]                      fee ଖା ।"
+        },
+        {
+          "match": " ।",
+          "start": 448,
+          "end": 450,
+          "context": " ;                      fee ଖା[ ।]\n\n=a                          "
+        },
+        {
+          "match": "  :",
+          "start": 567,
+          "end": 570,
+          "context": "                    ୬ ୭\n\n.  aa[  :]   =        34 SS             "
+        },
+        {
+          "match": " ।",
+          "start": 683,
+          "end": 685,
+          "context": "      Bak            '       .[ ।]\n:                    1 .     "
+        },
+        {
+          "match": "\n:",
+          "start": 685,
+          "end": 687,
+          "context": "    Bak            '       . ।[\n:]                    1 .       "
+        },
+        {
+          "match": "\n\n,",
+          "start": 893,
+          "end": 896,
+          "context": "    ¦              €    '    )[\n\n,] * ....ମଜା  ]  I &   $        "
+        },
+        {
+          "match": "    ।",
+          "start": 934,
+          "end": 939,
+          "context": "ଜା  ]  I &   $           ଶ୍‌ ୪[    ।]   ଛେ ୩୩୭ %\n=         A>      "
+        },
+        {
+          "match": " :",
+          "start": 1385,
+          "end": 1387,
+          "context": "ଶ୍ରୀଜଗନ୍ନାଥ ମନ୍ଦିର, ପୁରୀ\nମୂଲ୍ୟ[ :] ଟ୨୦୦/-\n______________________"
+        },
+        {
+          "match": "          ।",
+          "start": 1611,
+          "end": 1622,
+          "context": "\nଅନୁଭୂତ ଯୋଗମାଳା ଦ୍ଵିତୀୟ ଭାଗ ବା[          ।]\nଘର ବଇଦ                       "
+        },
+        {
+          "match": " :",
+          "start": 1674,
+          "end": 1676,
+          "context": "                        |\nଲେଖକ[ :] ଶ୍ରୀ ଲକ୍ଷ୍ମଣ ମିଶ୍ର           "
+        },
+        {
+          "match": "                                 ।",
+          "start": 1710,
+          "end": 1744,
+          "context": "ୀ ଲକ୍ଷ୍ମଣ ମିଶ୍ର              -[                                 ।]\nପ୍ରକାଶକ : ଶ୍ରୀ ପ୍ରାଣକୃଷ୍ଣ ମିଶ"
+        },
+        {
+          "match": " :",
+          "start": 1752,
+          "end": 1754,
+          "context": "                     ।\nପ୍ରକାଶକ[ :] ଶ୍ରୀ ପ୍ରାଣକୃଷ୍ଣ ମିଶ୍ର, ଆଇ. ଏ."
+        },
+        {
+          "match": "                                        ।",
+          "start": 1930,
+          "end": 1971,
+          "context": "୨୫୫୧୫୯୪\n\nସର୍ବସ୍ଵତ୍ତ୍ଵ ସଂରକ୍ଷିତ[                                        ।]\n\n“ ଲକ୍ଷ୍ମଣ ମିଶ୍ର Tle ଫ୍ୟାମିଲି"
+        }
+      ]
+    },
+    "spacing_errors": {
+      "count": 4722,
+      "examples": [
+        {
+          "match": "           ",
+          "start": 27,
+          "end": 38,
+          "context": "Page 1\nOCR Extracted Text\n:[           ].             =    | 4     ps "
+        },
+        {
+          "match": "             ",
+          "start": 39,
+          "end": 52,
+          "context": "R Extracted Text\n:           .[             ]=    | 4     ps ସବି\n`         "
+        },
+        {
+          "match": "    ",
+          "start": 53,
+          "end": 57,
+          "context": "xt\n:           .             =[    ]| 4     ps ସବି\n`              "
+        },
+        {
+          "match": "     ",
+          "start": 60,
+          "end": 65,
+          "context": "        .             =    | 4[     ]ps ସବି\n`                      "
+        },
+        {
+          "match": "                            ",
+          "start": 73,
+          "end": 101,
+          "context": "         =    | 4     ps ସବି\n`[                            ]4 ୨୬୩୭ 5h A   ୨ ଲେ a\n:        "
+        },
+        {
+          "match": "   ",
+          "start": 112,
+          "end": 115,
+          "context": "                   4 ୨୬୩୭ 5h A[   ]୨ ଲେ a\n:                      "
+        },
+        {
+          "match": "                             ",
+          "start": 123,
+          "end": 152,
+          "context": "        4 ୨୬୩୭ 5h A   ୨ ଲେ a\n:[                             ]`                       %     "
+        },
+        {
+          "match": "                       ",
+          "start": 153,
+          "end": 176,
+          "context": "                             `[                       ]%                = £2     as  "
+        },
+        {
+          "match": "                ",
+          "start": 177,
+          "end": 193,
+          "context": "     `                       %[                ]= £2     as         :     ¦\nପି"
+        },
+        {
+          "match": "     ",
+          "start": 197,
+          "end": 202,
+          "context": "         %                = £2[     ]as         :     ¦\nପି     a   "
+        },
+        {
+          "match": "         ",
+          "start": 204,
+          "end": 213,
+          "context": "  %                = £2     as[         ]:     ¦\nପି     a              "
+        },
+        {
+          "match": "     ",
+          "start": 214,
+          "end": 219,
+          "context": "         = £2     as         :[     ]¦\nପି     a                    "
+        },
+        {
+          "match": "     ",
+          "start": 223,
+          "end": 228,
+          "context": "= £2     as         :     ¦\nପି[     ]a                             "
+        },
+        {
+          "match": "                             ",
+          "start": 229,
+          "end": 258,
+          "context": "   as         :     ¦\nପି     a[                             ]:      ଥି   =            ¦\n 8 "
+        },
+        {
+          "match": "      ",
+          "start": 259,
+          "end": 265,
+          "context": "                             :[      ]ଥି   =            ¦\n 8        "
+        },
+        {
+          "match": "   ",
+          "start": 267,
+          "end": 270,
+          "context": "                     :      ଥି[   ]=            ¦\n 8             "
+        },
+        {
+          "match": "            ",
+          "start": 271,
+          "end": 283,
+          "context": "                 :      ଥି   =[            ]¦\n 8                   ~      "
+        },
+        {
+          "match": "\n ",
+          "start": 284,
+          "end": 286,
+          "context": "    :      ଥି   =            ¦[\n ]8                   ~         "
+        },
+        {
+          "match": "                   ",
+          "start": 287,
+          "end": 306,
+          "context": " :      ଥି   =            ¦\n 8[                   ]~                =            "
+        },
+        {
+          "match": "                ",
+          "start": 307,
+          "end": 323,
+          "context": "      ¦\n 8                   ~[                ]=                     J      ="
+        }
+      ]
+    }
+  },
+  "correction_recommendations": [
+    {
+      "type": "pattern_replacement",
+      "priority": "high",
+      "description": "Fix 62445 broken words (characters separated by spaces)",
+      "regex_pattern": "([ଅ-ୱ])\\s+([ଅ-ୱାିୀୁୂୃେୈୋୌ])",
+      "replacement": "\\1\\2",
+      "examples": [
+        "୨ ଲ",
+        "ୟ ଭ",
+        "ି ୦",
+        "୬ ୭",
+        "୪\nଶ"
+      ]
+    },
+    {
+      "type": "character_replacement",
+      "priority": "high",
+      "description": "Convert 505 Arabic numerals to Odia numerals",
+      "mapping": {
+        "0": "୦",
+        "1": "୧",
+        "2": "୨",
+        "3": "୩",
+        "4": "୪",
+        "5": "୫",
+        "6": "୬",
+        "7": "୭",
+        "8": "୮",
+        "9": "୯"
+      },
+      "examples": [
+        "1",
+        "4",
+        "4",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "type": "symbol_removal",
+      "priority": "high",
+      "description": "Remove 304 OCR symbol artifacts",
+      "action": "remove_symbols",
+      "examples": [
+        "£",
+        "¥",
+        "¥",
+        "€",
+        "‹"
+      ]
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 3028 instances of 'a' with appropriate Odia character",
+      "character": "a",
+      "suggested_replacements": [
+        "ଅ",
+        "ା"
+      ],
+      "count": 3028
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 3230 instances of 'e' with appropriate Odia character",
+      "character": "e",
+      "suggested_replacements": [
+        "ଏ",
+        "େ"
+      ],
+      "count": 3230
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1539 instances of 'i' with appropriate Odia character",
+      "character": "i",
+      "suggested_replacements": [
+        "ଇ",
+        "ି"
+      ],
+      "count": 1539
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1348 instances of 'o' with appropriate Odia character",
+      "character": "o",
+      "suggested_replacements": [
+        "ଓ",
+        "ୋ"
+      ],
+      "count": 1348
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 518 instances of 'u' with appropriate Odia character",
+      "character": "u",
+      "suggested_replacements": [
+        "ଉ",
+        "ୁ"
+      ],
+      "count": 518
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 905 instances of 'c' with appropriate Odia character",
+      "character": "c",
+      "suggested_replacements": [
+        "ଚ",
+        "ଛ"
+      ],
+      "count": 905
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 890 instances of 'g' with appropriate Odia character",
+      "character": "g",
+      "suggested_replacements": [
+        "ଗ",
+        "ଘ"
+      ],
+      "count": 890
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1934 instances of 't' with appropriate Odia character",
+      "character": "t",
+      "suggested_replacements": [
+        "ତ",
+        "ଟ"
+      ],
+      "count": 1934
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1258 instances of 'd' with appropriate Odia character",
+      "character": "d",
+      "suggested_replacements": [
+        "ଦ",
+        "ଡ"
+      ],
+      "count": 1258
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1250 instances of 'n' with appropriate Odia character",
+      "character": "n",
+      "suggested_replacements": [
+        "ନ",
+        "ଣ"
+      ],
+      "count": 1250
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 312 instances of 'p' with appropriate Odia character",
+      "character": "p",
+      "suggested_replacements": [
+        "ପ",
+        "ଫ"
+      ],
+      "count": 312
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 258 instances of 'b' with appropriate Odia character",
+      "character": "b",
+      "suggested_replacements": [
+        "ବ",
+        "ଭ"
+      ],
+      "count": 258
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 423 instances of 'm' with appropriate Odia character",
+      "character": "m",
+      "suggested_replacements": [
+        "ମ"
+      ],
+      "count": 423
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1283 instances of 'r' with appropriate Odia character",
+      "character": "r",
+      "suggested_replacements": [
+        "ର"
+      ],
+      "count": 1283
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 974 instances of 'l' with appropriate Odia character",
+      "character": "l",
+      "suggested_replacements": [
+        "ଲ"
+      ],
+      "count": 974
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 1164 instances of 's' with appropriate Odia character",
+      "character": "s",
+      "suggested_replacements": [
+        "ସ",
+        "ଶ",
+        "ଷ"
+      ],
+      "count": 1164
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 533 instances of 'h' with appropriate Odia character",
+      "character": "h",
+      "suggested_replacements": [
+        "ହ"
+      ],
+      "count": 533
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 68 instances of '0' with appropriate Odia character",
+      "character": "0",
+      "suggested_replacements": [
+        "୦",
+        "ଓ"
+      ],
+      "count": 68
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 186 instances of '1' with appropriate Odia character",
+      "character": "1",
+      "suggested_replacements": [
+        "୧",
+        "।"
+      ],
+      "count": 186
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 158 instances of '2' with appropriate Odia character",
+      "character": "2",
+      "suggested_replacements": [
+        "୨"
+      ],
+      "count": 158
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 66 instances of '3' with appropriate Odia character",
+      "character": "3",
+      "suggested_replacements": [
+        "୩"
+      ],
+      "count": 66
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 83 instances of '4' with appropriate Odia character",
+      "character": "4",
+      "suggested_replacements": [
+        "୪"
+      ],
+      "count": 83
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 66 instances of '5' with appropriate Odia character",
+      "character": "5",
+      "suggested_replacements": [
+        "୫"
+      ],
+      "count": 66
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 124 instances of '6' with appropriate Odia character",
+      "character": "6",
+      "suggested_replacements": [
+        "୬"
+      ],
+      "count": 124
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 79 instances of '7' with appropriate Odia character",
+      "character": "7",
+      "suggested_replacements": [
+        "୭"
+      ],
+      "count": 79
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 65 instances of '8' with appropriate Odia character",
+      "character": "8",
+      "suggested_replacements": [
+        "୮"
+      ],
+      "count": 65
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 152 instances of '9' with appropriate Odia character",
+      "character": "9",
+      "suggested_replacements": [
+        "୯"
+      ],
+      "count": 152
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 4071 instances of '|' with appropriate Odia character",
+      "character": "|",
+      "suggested_replacements": [
+        "।",
+        "୧"
+      ],
+      "count": 4071
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 21156 instances of '_' with appropriate Odia character",
+      "character": "_",
+      "suggested_replacements": [
+        "ଅ",
+        ""
+      ],
+      "count": 21156
+    },
+    {
+      "type": "systematic_replacement",
+      "priority": "high",
+      "description": "Replace 887 instances of '-' with appropriate Odia character",
+      "character": "-",
+      "suggested_replacements": [
+        "୍",
+        ""
+      ],
+      "count": 887
+    }
+  ],
+  "manual_review_items": [
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 682 instances of 'ା ପ' - should these be joined?",
+      "pattern": "ା ପ",
+      "suggested_action": "Consider joining as 'ାପ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 680 instances of 'େ ବ' - should these be joined?",
+      "pattern": "େ ବ",
+      "suggested_action": "Consider joining as 'େବ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 673 instances of 'େ ପ' - should these be joined?",
+      "pattern": "େ ପ",
+      "suggested_action": "Consider joining as 'େପ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 653 instances of 'ି ପ' - should these be joined?",
+      "pattern": "ି ପ",
+      "suggested_action": "Consider joining as 'ିପ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 533 instances of 'େ ମ' - should these be joined?",
+      "pattern": "େ ମ",
+      "suggested_action": "Consider joining as 'େମ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 528 instances of 'େ ସ' - should these be joined?",
+      "pattern": "େ ସ",
+      "suggested_action": "Consider joining as 'େସ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 471 instances of 'ା କ' - should these be joined?",
+      "pattern": "ା କ",
+      "suggested_action": "Consider joining as 'ାକ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 439 instances of 'ର ପ' - should these be joined?",
+      "pattern": "ର ପ",
+      "suggested_action": "Consider joining as 'ରପ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 439 instances of 'ର କ' - should these be joined?",
+      "pattern": "ର କ",
+      "suggested_action": "Consider joining as 'ରକ'"
+    },
+    {
+      "type": "word_break",
+      "priority": "medium",
+      "description": "Review 431 instances of 'ି ବ' - should these be joined?",
+      "pattern": "ି ବ",
+      "suggested_action": "Consider joining as 'ିବ'"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character '_' appears 21156 times",
+      "character": "_",
+      "frequency": 21156,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character '|' appears 4071 times",
+      "character": "|",
+      "frequency": 4071,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'ଳ' appears 3936 times",
+      "character": "ଳ",
+      "frequency": 3936,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'e' appears 3230 times",
+      "character": "e",
+      "frequency": 3230,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'a' appears 3028 times",
+      "character": "a",
+      "frequency": 3028,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'ୟ' appears 2906 times",
+      "character": "ୟ",
+      "frequency": 2906,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'A' appears 2440 times",
+      "character": "A",
+      "frequency": 2440,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 't' appears 1934 times",
+      "character": "t",
+      "frequency": 1934,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'ଂ' appears 1601 times",
+      "character": "ଂ",
+      "frequency": 1601,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'i' appears 1539 times",
+      "character": "i",
+      "frequency": 1539,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'o' appears 1348 times",
+      "character": "o",
+      "frequency": 1348,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'G' appears 1293 times",
+      "character": "G",
+      "frequency": 1293,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'r' appears 1283 times",
+      "character": "r",
+      "frequency": 1283,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'd' appears 1258 times",
+      "character": "d",
+      "frequency": 1258,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'n' appears 1250 times",
+      "character": "n",
+      "frequency": 1250,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'ଁ' appears 1194 times",
+      "character": "ଁ",
+      "frequency": 1194,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 's' appears 1164 times",
+      "character": "s",
+      "frequency": 1164,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'E' appears 981 times",
+      "character": "E",
+      "frequency": 981,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'l' appears 974 times",
+      "character": "l",
+      "frequency": 974,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'ଵ' appears 934 times",
+      "character": "ଵ",
+      "frequency": 934,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'c' appears 905 times",
+      "character": "c",
+      "frequency": 905,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'g' appears 890 times",
+      "character": "g",
+      "frequency": 890,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character '‌' appears 874 times",
+      "character": "‌",
+      "frequency": 874,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'O' appears 750 times",
+      "character": "O",
+      "frequency": 750,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'I' appears 719 times",
+      "character": "I",
+      "frequency": 719,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'C' appears 621 times",
+      "character": "C",
+      "frequency": 621,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'S' appears 608 times",
+      "character": "S",
+      "frequency": 608,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character '/' appears 605 times",
+      "character": "/",
+      "frequency": 605,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'R' appears 598 times",
+      "character": "R",
+      "frequency": 598,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'x' appears 580 times",
+      "character": "x",
+      "frequency": 580,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'P' appears 535 times",
+      "character": "P",
+      "frequency": 535,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'h' appears 533 times",
+      "character": "h",
+      "frequency": 533,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'u' appears 518 times",
+      "character": "u",
+      "frequency": 518,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character '¦' appears 482 times",
+      "character": "¦",
+      "frequency": 482,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'f' appears 445 times",
+      "character": "f",
+      "frequency": 445,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'T' appears 436 times",
+      "character": "T",
+      "frequency": 436,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'm' appears 423 times",
+      "character": "m",
+      "frequency": 423,
+      "suggested_action": "Review and determine appropriate replacement"
+    },
+    {
+      "type": "character_review",
+      "priority": "high",
+      "description": "High-frequency non-Odia character 'M' appears 373 times",
+      "character": "M",
+      "frequency": 373,
+      "suggested_action": "Review and determine appropriate replacement"
+    }
+  ],
+  "character_frequency": {
+    " ": 143026,
+    "ା": 26325,
+    "ର": 23573,
+    "_": 21156,
+    "ି": 20226,
+    "୍": 20090,
+    "େ": 13529,
+    "କ": 13162,
+    "ବ": 12022,
+    "ୁ": 10835,
+    "ତ": 9850,
+    "\n": 9411,
+    "ନ": 9152,
+    "ପ": 8708,
+    "ମ": 7648,
+    "ହ": 7383,
+    "ସ": 7331,
+    "ଦ": 6315,
+    "ଗ": 5334,
+    "ଲ": 5291,
+    "ଏ": 5030,
+    "ୋ": 4853,
+    "ଇ": 4769,
+    "ଣ": 4522,
+    "|": 4071,
+    "ଳ": 3936,
+    "ଶ": 3608,
+    ",": 3592,
+    "e": 3230,
+    "a": 3028,
+    "ଅ": 3022,
+    "ୟ": 2906,
+    "ଟ": 2682,
+    "ଖ": 2602,
+    "ଚ": 2598,
+    "ଧ": 2569,
+    "A": 2440,
+    "ଥ": 2325,
+    "ଯ": 2291,
+    "ଷ": 2256,
+    "।": 2242,
+    "ୀ": 2225,
+    "ଭ": 2071,
+    "ଡ": 2056,
+    "ଜ": 2028,
+    "t": 1934,
+    "଼": 1654,
+    "ଂ": 1601,
+    "ଆ": 1540,
+    "i": 1539,
+    ")": 1530,
+    "ଛ": 1466,
+    "ଙ": 1419,
+    "ଉ": 1412,
+    "o": 1348,
+    "ୂ": 1316,
+    "G": 1293,
+    "r": 1283,
+    "d": 1258,
+    "n": 1250,
+    "ଁ": 1194,
+    "s": 1164,
+    "ଓ": 1012,
+    "E": 981,
+    "l": 974,
+    "୧": 942,
+    "ଵ": 934,
+    "c": 905,
+    "g": 890,
+    "-": 887,
+    "‌": 874,
+    "(": 851,
+    "ଘ": 798,
+    "ଫ": 780,
+    "O": 750,
+    "୨": 727,
+    "I": 719,
+    "C": 621,
+    "S": 608,
+    "/": 605,
+    "R": 598,
+    "ଠ": 597,
+    "x": 580,
+    "ୃ": 557,
+    "P": 535,
+    "h": 533,
+    "u": 518,
+    "୩": 484,
+    "¦": 482,
+    "ଞ": 462,
+    ":": 461,
+    "f": 445,
+    "T": 436,
+    "m": 423,
+    ".": 409,
+    "୫": 382,
+    "M": 373,
+    "ଝ": 350,
+    "୪": 344,
+    "୦": 317
+  },
+  "word_break_analysis": {
+    "total_broken_words": 41602,
+    "common_breaks": [
+      [
+        [
+          "ା",
+          "ପ"
+        ],
+        682
+      ],
+      [
+        [
+          "େ",
+          "ବ"
+        ],
+        680
+      ],
+      [
+        [
+          "େ",
+          "ପ"
+        ],
+        673
+      ],
+      [
+        [
+          "ି",
+          "ପ"
+        ],
+        653
+      ],
+      [
+        [
+          "େ",
+          "ମ"
+        ],
+        533
+      ],
+      [
+        [
+          "େ",
+          "ସ"
+        ],
+        528
+      ],
+      [
+        [
+          "ା",
+          "କ"
+        ],
+        471
+      ],
+      [
+        [
+          "ର",
+          "ପ"
+        ],
+        439
+      ],
+      [
+        [
+          "ର",
+          "କ"
+        ],
+        439
+      ],
+      [
+        [
+          "ି",
+          "ବ"
+        ],
+        431
+      ],
+      [
+        [
+          "େ",
+          "କ"
+        ],
+        408
+      ],
+      [
+        [
+          "ା",
+          "ବ"
+        ],
+        398
+      ],
+      [
+        [
+          "ି",
+          "ସ"
+        ],
+        384
+      ],
+      [
+        [
+          "ି",
+          "ଦ"
+        ],
+        383
+      ],
+      [
+        [
+          "ି",
+          "କ"
+        ],
+        383
+      ],
+      [
+        [
+          "ତ",
+          "ହ"
+        ],
+        363
+      ],
+      [
+        [
+          "ା",
+          "ସ"
+        ],
+        353
+      ],
+      [
+        [
+          "ା",
+          "ହ"
+        ],
+        344
+      ],
+      [
+        [
+          "ି",
+          "ମ"
+        ],
+        335
+      ],
+      [
+        [
+          "ନ",
+          "କ"
+        ],
+        326
+      ]
+    ],
+    "break_types": {
+      "consonant_consonant": 13744,
+      "consonant_vowel_sign": 4,
+      "vowel_consonant": 2246
+    }
+  },
+  "systematic_errors": {
+    "character_substitutions": {
+      "a": {
+        "count": 3028,
+        "suggested_replacements": [
+          "ଅ",
+          "ା"
+        ],
+        "confidence": "high"
+      },
+      "e": {
+        "count": 3230,
+        "suggested_replacements": [
+          "ଏ",
+          "େ"
+        ],
+        "confidence": "high"
+      },
+      "i": {
+        "count": 1539,
+        "suggested_replacements": [
+          "ଇ",
+          "ି"
+        ],
+        "confidence": "high"
+      },
+      "o": {
+        "count": 1348,
+        "suggested_replacements": [
+          "ଓ",
+          "ୋ"
+        ],
+        "confidence": "high"
+      },
+      "u": {
+        "count": 518,
+        "suggested_replacements": [
+          "ଉ",
+          "ୁ"
+        ],
+        "confidence": "high"
+      },
+      "c": {
+        "count": 905,
+        "suggested_replacements": [
+          "ଚ",
+          "ଛ"
+        ],
+        "confidence": "high"
+      },
+      "g": {
+        "count": 890,
+        "suggested_replacements": [
+          "ଗ",
+          "ଘ"
+        ],
+        "confidence": "high"
+      },
+      "t": {
+        "count": 1934,
+        "suggested_replacements": [
+          "ତ",
+          "ଟ"
+        ],
+        "confidence": "high"
+      },
+      "d": {
+        "count": 1258,
+        "suggested_replacements": [
+          "ଦ",
+          "ଡ"
+        ],
+        "confidence": "high"
+      },
+      "n": {
+        "count": 1250,
+        "suggested_replacements": [
+          "ନ",
+          "ଣ"
+        ],
+        "confidence": "high"
+      },
+      "p": {
+        "count": 312,
+        "suggested_replacements": [
+          "ପ",
+          "ଫ"
+        ],
+        "confidence": "high"
+      },
+      "b": {
+        "count": 258,
+        "suggested_replacements": [
+          "ବ",
+          "ଭ"
+        ],
+        "confidence": "high"
+      },
+      "m": {
+        "count": 423,
+        "suggested_replacements": [
+          "ମ"
+        ],
+        "confidence": "high"
+      },
+      "r": {
+        "count": 1283,
+        "suggested_replacements": [
+          "ର"
+        ],
+        "confidence": "high"
+      },
+      "l": {
+        "count": 974,
+        "suggested_replacements": [
+          "ଲ"
+        ],
+        "confidence": "high"
+      },
+      "s": {
+        "count": 1164,
+        "suggested_replacements": [
+          "ସ",
+          "ଶ",
+          "ଷ"
+        ],
+        "confidence": "high"
+      },
+      "h": {
+        "count": 533,
+        "suggested_replacements": [
+          "ହ"
+        ],
+        "confidence": "high"
+      },
+      "0": {
+        "count": 68,
+        "suggested_replacements": [
+          "୦",
+          "ଓ"
+        ],
+        "confidence": "high"
+      },
+      "1": {
+        "count": 186,
+        "suggested_replacements": [
+          "୧",
+          "।"
+        ],
+        "confidence": "high"
+      },
+      "2": {
+        "count": 158,
+        "suggested_replacements": [
+          "୨"
+        ],
+        "confidence": "high"
+      },
+      "3": {
+        "count": 66,
+        "suggested_replacements": [
+          "୩"
+        ],
+        "confidence": "high"
+      },
+      "4": {
+        "count": 83,
+        "suggested_replacements": [
+          "୪"
+        ],
+        "confidence": "high"
+      },
+      "5": {
+        "count": 66,
+        "suggested_replacements": [
+          "୫"
+        ],
+        "confidence": "high"
+      },
+      "6": {
+        "count": 124,
+        "suggested_replacements": [
+          "୬"
+        ],
+        "confidence": "high"
+      },
+      "7": {
+        "count": 79,
+        "suggested_replacements": [
+          "୭"
+        ],
+        "confidence": "high"
+      },
+      "8": {
+        "count": 65,
+        "suggested_replacements": [
+          "୮"
+        ],
+        "confidence": "high"
+      },
+      "9": {
+        "count": 152,
+        "suggested_replacements": [
+          "୯"
+        ],
+        "confidence": "high"
+      },
+      "|": {
+        "count": 4071,
+        "suggested_replacements": [
+          "।",
+          "୧"
+        ],
+        "confidence": "high"
+      },
+      "_": {
+        "count": 21156,
+        "suggested_replacements": [
+          "ଅ",
+          ""
+        ],
+        "confidence": "high"
+      },
+      "-": {
+        "count": 887,
+        "suggested_replacements": [
+          "୍",
+          ""
+        ],
+        "confidence": "high"
+      }
+    },
+    "pattern_replacements": {
+      "\\b([0-9]+)\\b": {
+        "count": 476,
+        "description": "Convert to Odia numerals",
+        "priority": "high"
+      },
+      "([ଅ-ୱ])\\s+([ାିୀୁୂୃେୈୋୌ])": {
+        "count": 9,
+        "description": "Join character with vowel sign",
+        "priority": "medium"
+      },
+      "([ଅ-ୱ])୍\\s": {
+        "count": 20,
+        "description": "Remove trailing halanta",
+        "priority": "medium"
+      },
+      "\\|": {
+        "count": 4071,
+        "description": "Replace with danda (।)",
+        "priority": "high"
+      }
+    },
+    "frequency_anomalies": {}
+  }
+}

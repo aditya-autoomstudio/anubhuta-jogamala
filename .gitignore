@@ -50,11 +50,15 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Project specific
+# Project specific - PDF files (as per cursor rules)
 *.pdf
 *.rar
 *.zip
 *.tar.gz
+
+# Test files
+test_*.pdf
+sample_*.pdf
 
 # Extracted text files - allow part_*_text directories but ignore other output
 extracted_text/
